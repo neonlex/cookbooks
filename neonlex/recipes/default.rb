@@ -8,7 +8,7 @@ end
 
 git node[:neonlex][:dotfiles][:directory] do
   repository 'https://github.com/neonlex/dotfiles.git'
-  reference :master
+  reference 'master'
   action :sync
 end
 
