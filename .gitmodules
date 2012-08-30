@@ -13,3 +13,6 @@
 [submodule "vim"]
 	path = vim
 	url = git://github.com/opscode-cookbooks/vim.git
+[submodule "dmg"]
+	path = dmg
+	url = git://github.com/opscode-cookbooks/dmg.git
