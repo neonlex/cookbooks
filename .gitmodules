@@ -1,18 +1,3 @@
 [submodule "homebrew"]
 	path = homebrew
 	url = git://github.com/opscode-cookbooks/homebrew.git
-[submodule "zsh"]
-	path = zsh
-	url = git://github.com/opscode-cookbooks/zsh.git
-[submodule "tmux"]
-	path = tmux
-	url = git://github.com/opscode-cookbooks/tmux.git
-[submodule "git"]
-	path = git
-	url = git://github.com/opscode-cookbooks/git.git
-[submodule "vim"]
-	path = vim
-	url = git://github.com/opscode-cookbooks/vim.git
-[submodule "dmg"]
-	path = dmg
-	url = git://github.com/opscode-cookbooks/dmg.git
