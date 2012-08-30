@@ -16,7 +16,8 @@
 #
 #   0. You just DO WHAT THE FUCK YOU WANT TO.
 
-package "vim" do
-  action :install
+unless node[:platform] == "mac_os_x"
+  package "vim" do
+    action :install
+  end
 end
-

@@ -22,7 +22,7 @@ when "debian", "ubuntu"
     action :install
   end
 else
-  package 'git' do
+  package "git" do
     action :install
   end
 end
